@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:400,600&display=swap");
+
+:root {
+  --border-color: #144fc6;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #3494e4;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+h1,
+h2,
+h3 {
+  color: aliceblue;
+}
+.text {
+  color: aliceblue;
+}
+.water-tracking-container,
+.glass {
+  background-color: aliceblue;
+  border: var(--border-color) solid 3px;
+  color: var(--border-color);
+  border-radius: 0 0 40px 40px;
+}
+.water-tracking-container {
+  padding: 6rem 2rem;
+}
+.water-glasses-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 50rem;
+}
+.glass {
+  padding: 3rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.glass-filled {
+  background-color: blue;
+  color: aliceblue;
+}
